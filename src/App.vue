@@ -1,6 +1,6 @@
 <template>
     <v-app>
-        <v-btn href="https://github.com/cmoleka" absolute fab dark large color="primary">
+        <v-btn href="https://github.com/cmoleka/weatherapp" absolute fab dark large color="primary">
             <v-icon large color="white">mdi-github</v-icon>
         </v-btn>
         <v-main class="home-container ">
