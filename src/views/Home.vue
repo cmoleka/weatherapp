@@ -1,18 +1,20 @@
 <template>
-  <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-  </div>
+    <v-row align="center" justify="center">
+        <v-col md="auto" align="center">
+            <h1 class="text-h1 white--text font-weight-bold">WeatherAPP</h1>
+            <weather-search-component />
+        </v-col>
+    </v-row>
 </template>
 
 <script>
 // @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue';
+import WeatherSearchComponent from '@/components/weatherSearch.vue'
 
 export default {
-  name: 'Home',
-  components: {
-    HelloWorld,
-  },
-};
+    name: 'Home',
+    components: {
+        WeatherSearchComponent
+    }
+}
 </script>
